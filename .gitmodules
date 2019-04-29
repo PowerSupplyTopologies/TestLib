@@ -1,0 +1,6 @@
+[submodule "TestLib.Base"]
+	path = TestLib.Base
+	url = https://github.com/PowerSupplyTopologies/TestLib.Base.git
+[submodule "TestLib.Ext"]
+	path = TestLib.Ext
+	url = https://github.com/PowerSupplyTopologies/TestLib.Ext.git
