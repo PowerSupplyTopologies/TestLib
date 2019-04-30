@@ -1,7 +1,10 @@
 set(_supported_components Base Ext)
 
+message("sup comp: ${_supported_components}")
+
 foreach(_comp ${TestLib_FIND_COMPONENTS})
-  if (NOT ";${_supported_components};" MATCHES _comp)
+    message("comp: ${_comp}")
+  if (NOT ";${_supported_components};" MATCHES ${_comp})
     set(TestLib_FOUND False)
     set(TestLib_NOT_FOUND_MESSAGE "Unsupported component: ${_comp}")
   endif()
